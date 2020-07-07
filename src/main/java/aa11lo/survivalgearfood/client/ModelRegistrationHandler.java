@@ -25,7 +25,7 @@ public class ModelRegistrationHandler {
 
 
     private static void registerModel(Item item, int meta) {
-        aa11lo.survivalgearfood.SurvivalGearFoodMain.LOGGER.info("loading model from " + item.getRegistryName());
+        aa11lo.survivalgearfood.SurvivalGearFoodMain.LOGGER.info("registering model for " + item.getRegistryName());
         
         ModelLoader.setCustomModelResourceLocation(item, meta, 
 				new ModelResourceLocation(item.getRegistryName(), "inventory"));
