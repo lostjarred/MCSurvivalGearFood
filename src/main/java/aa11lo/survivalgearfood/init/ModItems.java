@@ -33,6 +33,8 @@ public class ModItems {
                 SurvivalGearFoodMain.LOGGER.info("Registering " + items[i].getTranslationKey());
                 event.getRegistry().register(items[i]);
             }
+
+            SurvivalGearFoodMain.LOGGER.info("Finished Item Registration");
         }
     }
 
