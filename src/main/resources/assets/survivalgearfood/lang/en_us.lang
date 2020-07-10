@@ -2,5 +2,41 @@
 item.survivalgearfood.item_canned_apple.name= Canned Apple
 item.survivalgearfood.item_food_canned_apple.name= Open Can of Apple
 
+item.survivalgearfood.item_canned_mushroomstew.name= Canned Mushroom Stew
+item.survivalgearfood.item_food_canned_mushroomstew.name= Open Can of Mushroom Stew
+
+item.survivalgearfood.item_canned_bread.name= Canned Bread
+item.survivalgearfood.item_food_canned_bread.name= Open Can of Bread
+
+item.survivalgearfood.item_canned_pork.name= Canned Pork 
+item.survivalgearfood.item_food_canned_pork.name= Open Can of Pork 
+
+item.survivalgearfood.item_canned_fish.name= Canned Fish
+item.survivalgearfood.item_food_canned_fish.name= Open Can of Fish 
+
+item.survivalgearfood.item_canned_melon.name= Canned Melon 
+item.survivalgearfood.item_food_canned_melon.name= Open Can of Melon
+
+item.survivalgearfood.item_canned_beef.name= Canned Beef
+item.survivalgearfood.item_food_canned_beef.name= Open Can of Beef
+
+item.survivalgearfood.item_canned_chicken.name= Canned Chicken 
+item.survivalgearfood.item_food_canned_chicken.name= Open Can of Chicken 
+
+item.survivalgearfood.item_canned_carrot.name= Canned Carrot 
+item.survivalgearfood.item_food_canned_carrot.name= Open Can of Carrot
+
+item.survivalgearfood.item_canned_potato.name= Canned Potato
+item.survivalgearfood.item_food_canned_potato.name= Open Can of Potato 
+
+item.survivalgearfood.item_canned_rabbit.name= Canned Rabbit 
+item.survivalgearfood.item_food_canned_rabbit.name= Open Can of Rabbit
+
+item.survivalgearfood.item_canned_mutton.name= Canned Mutton  
+item.survivalgearfood.item_food_canned_mutton.name= Open Can of Mutton
+
+item.survivalgearfood.item_canned_beetroot.name= Canned Beetroot  
+item.survivalgearfood.item_food_canned_beetroot.name= Open Can of Beetroot
+
 #Creative tab
 itemGroup.survivalgearfood=Survival Gear Food
