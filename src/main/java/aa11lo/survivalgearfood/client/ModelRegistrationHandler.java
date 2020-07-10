@@ -17,6 +17,42 @@ public class ModelRegistrationHandler {
 	public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.ITEM_CANNED_APPLE);
         registerModel(ModItems.ITEM_FOOD_CANNED_APPLE);
+
+        registerModel(ModItems.ITEM_CANNED_MUSHROOMSTEW);
+        registerModel(ModItems.ITEM_FOOD_CANNED_MUSHROOMSTEW);
+        
+        registerModel(ModItems.ITEM_CANNED_BREAD);
+        registerModel(ModItems.ITEM_FOOD_CANNED_BREAD);
+
+        registerModel(ModItems.ITEM_CANNED_PORK);
+        registerModel(ModItems.ITEM_FOOD_CANNED_PORK);
+
+        registerModel(ModItems.ITEM_CANNED_FISH);
+        registerModel(ModItems.ITEM_FOOD_CANNED_FISH);
+
+        registerModel(ModItems.ITEM_CANNED_MELON);
+        registerModel(ModItems.ITEM_FOOD_CANNED_MELON);
+
+        registerModel(ModItems.ITEM_CANNED_BEEF);
+        registerModel(ModItems.ITEM_FOOD_CANNED_BEEF);
+
+        registerModel(ModItems.ITEM_CANNED_CHICKEN);
+        registerModel(ModItems.ITEM_FOOD_CANNED_CHICKEN);
+
+        registerModel(ModItems.ITEM_CANNED_CARROT);
+        registerModel(ModItems.ITEM_FOOD_CANNED_CARROT);
+
+        registerModel(ModItems.ITEM_CANNED_POTATO);
+        registerModel(ModItems.ITEM_FOOD_CANNED_POTATO);
+
+        registerModel(ModItems.ITEM_CANNED_RABBIT);
+        registerModel(ModItems.ITEM_FOOD_CANNED_RABBIT);
+
+        registerModel(ModItems.ITEM_CANNED_MUTTON);
+        registerModel(ModItems.ITEM_FOOD_CANNED_MUTTON);
+
+        registerModel(ModItems.ITEM_CANNED_BEETROOT);
+        registerModel(ModItems.ITEM_FOOD_CANNED_BEETROOT);
     }
 
     private static void registerModel(Item item) {
