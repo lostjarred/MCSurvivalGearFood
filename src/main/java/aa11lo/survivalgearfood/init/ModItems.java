@@ -58,25 +58,25 @@ public class ModItems {
         @SubscribeEvent
         public static void registerItems(Register<Item> event){
             final Item[] items ={
-                //apple
+                //apple art done
                 new ItemBasic("item_canned_apple"),
                 new ItemFoodBasic(4, 0.5f, "item_food_canned_apple"),
-                //mushroomstew
+                //mushroomstew art done
                 new ItemBasic("item_canned_mushroomstew"),
                 new ItemFoodBasic(6, 0.6f, "item_food_canned_mushroomstew"),
-                //bread
+                //bread art done 
                 new ItemBasic("item_canned_bread"),
                 new ItemFoodBasic(5, 0.6f, "item_food_canned_bread"),
-                //pork
+                //pork art done
                 new ItemBasic("item_canned_pork"),
                 new ItemFoodBasic(8, 0.8f, "item_food_canned_pork"),
-                //fish
+                //fish art done
                 new ItemBasic("item_canned_fish"),
                 new ItemFoodBasic(2, 0.1f, "item_food_canned_fish"),
-                //melon
+                //melon art done
                 new ItemBasic("item_canned_melon"),
                 new ItemFoodBasic(2, 0.3f, "item_food_canned_melon"),
-                //beef
+                //beef art done
                 new ItemBasic("item_canned_beef"),
                 new ItemFoodBasic(8, 0.8f, "item_food_canned_beef"),
                 //chicken
