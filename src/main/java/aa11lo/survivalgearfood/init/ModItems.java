@@ -85,10 +85,10 @@ public class ModItems {
                 //carrot art done
                 new ItemBasic("item_canned_carrot"),
                 new ItemFoodBasic(3, 0.6f, "item_food_canned_carrot"),
-                //potato
+                //potato art done
                 new ItemBasic("item_canned_potato"),
                 new ItemFoodBasic(5, 0.6f, "item_food_canned_potato"),
-                //rabbot
+                //rabbot art done
                 new ItemBasic("item_canned_rabbit"),
                 new ItemFoodBasic(5, 0.6f, "item_food_canned_rabbit"),
                 //mutton
