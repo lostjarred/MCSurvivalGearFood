@@ -79,10 +79,10 @@ public class ModItems {
                 //beef art done
                 new ItemBasic("item_canned_beef"),
                 new ItemFoodBasic(8, 0.8f, "item_food_canned_beef"),
-                //chicken
+                //chicken art done
                 new ItemBasic("item_canned_chicken"),
                 new ItemFoodBasic(6, 0.6f, "item_food_canned_chicken"),
-                //carrot
+                //carrot art done
                 new ItemBasic("item_canned_carrot"),
                 new ItemFoodBasic(3, 0.6f, "item_food_canned_carrot"),
                 //potato
