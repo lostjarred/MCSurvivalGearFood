@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "survivalgearfood:item_canned_mutton"
+      }
+    ],
+    "result": {
+      "item": "survivalgearfood:item_food_canned_mutton"
+    }
+  }
