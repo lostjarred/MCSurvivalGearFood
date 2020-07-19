@@ -11,6 +11,7 @@ public class ItemFoodReturnItem  extends ItemFood{
     public ItemFoodReturnItem(int amount, float saturation, Item Returneditem) {
         super(amount, saturation, false);
         ReturnItem = new ItemStack(Returneditem); 
+        maxStackSize = 1;
     }
 
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
