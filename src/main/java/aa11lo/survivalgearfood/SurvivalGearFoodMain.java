@@ -2,6 +2,7 @@ package aa11lo.survivalgearfood;
 
 import org.apache.logging.log4j.Logger;
 
+import aa11lo.survivalgearfood.recipes.ModRecipes;
 import aa11lo.survivalgearfood.tabs.SurvivalGearFoodTab;
 
 import org.apache.logging.log4j.LogManager;
@@ -33,6 +34,7 @@ public class SurvivalGearFoodMain {
 	@EventHandler
 	public void init(final FMLInitializationEvent event) {
 		LOGGER.info(SurvivalGearFoodMain.NAME + ": Loading");
+		ModRecipes.initSmelting();
 	}
 
 	@EventHandler
