@@ -15,6 +15,11 @@ import net.minecraftforge.fml.relauncher.Side;
 public class ModelRegistrationHandler {
     @SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
+        registerModel(ModItems.ITEM_USED_CAN);
+
+
+
+        //food stuff
         registerModel(ModItems.ITEM_CANNED_APPLE);
         registerModel(ModItems.ITEM_FOOD_CANNED_APPLE);
 

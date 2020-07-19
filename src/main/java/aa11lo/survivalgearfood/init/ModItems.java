@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 @ObjectHolder(SurvivalGearFoodMain.MODID)
 public class ModItems {
 
+    //ITEMS
+    public static final Item ITEM_USED_CAN = null;
     //FOOD ITEMS
     //APPLE
     public static final Item ITEM_CANNED_APPLE = null;
@@ -58,6 +60,8 @@ public class ModItems {
         @SubscribeEvent
         public static void registerItems(Register<Item> event){
             final Item[] items ={
+                new ItemBasic("item_used_can"),
+
                 //apple art done
                 new ItemBasic("item_canned_apple"),
                     //food values 4, 0.3
