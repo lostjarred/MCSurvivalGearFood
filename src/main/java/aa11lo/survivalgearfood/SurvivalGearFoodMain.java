@@ -18,7 +18,7 @@ public class SurvivalGearFoodMain {
 
 	public static final String MODID = "survivalgearfood";
 	public static final String NAME = "Survival Gear Food Mod";
-	public static final String VERSION = "0.1.0beta";
+	public static final String VERSION = "0.1.0";
 	public static final String MC_VERSION = "[1.12.2]";
 
 	public static final Logger LOGGER = LogManager.getLogger(SurvivalGearFoodMain.MODID);
