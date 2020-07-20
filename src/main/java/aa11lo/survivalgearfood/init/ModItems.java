@@ -3,6 +3,7 @@ package aa11lo.survivalgearfood.init;
 import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import aa11lo.survivalgearfood.item.ItemBasic;
 import aa11lo.survivalgearfood.item.ItemFoodBasic;
+import aa11lo.survivalgearfood.item.ItemFoodReturnCan;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -65,67 +66,67 @@ public class ModItems {
                 //apple art done
                 new ItemBasic("item_canned_apple"),
                     //food values 4, 0.3
-                new ItemFoodBasic(4, 0.5f, "item_food_canned_apple"),
+                new ItemFoodReturnCan(4, 0.5f, "item_food_canned_apple"),
                 
                 //mushroomstew art done
                 new ItemBasic("item_canned_mushroomstew"),
                     //food values 6, 0.6
-                new ItemFoodBasic(6, 0.6f, "item_food_canned_mushroomstew"),
+                new ItemFoodReturnCan(6, 0.6f, "item_food_canned_mushroomstew"),
                 
                 //bread art done 
                 new ItemBasic("item_canned_bread"),
                     //food values 5, 0.6
-                new ItemFoodBasic(5, 0.6f, "item_food_canned_bread"),
+                new ItemFoodReturnCan(5, 0.6f, "item_food_canned_bread"),
                 
                 //pork art done
                 new ItemBasic("item_canned_pork"),
                     //food values 8, 0.8
-                new ItemFoodBasic(8, 0.8f, "item_food_canned_pork"),
+                new ItemFoodReturnCan(8, 0.8f, "item_food_canned_pork"),
                 
                 //fish art done
                 new ItemBasic("item_canned_fish"),
                     //food values cod 5, 0.6
-                new ItemFoodBasic(2, 0.1f, "item_food_canned_fish"),
+                new ItemFoodReturnCan(2, 0.1f, "item_food_canned_fish"),
                 
                 //melon art done
                 new ItemBasic("item_canned_melon"),
                     //food values 2, 0.3
-                new ItemFoodBasic(2, 0.3f, "item_food_canned_melon"),
+                new ItemFoodReturnCan(2, 0.3f, "item_food_canned_melon"),
                 
                 //beef art done
                 new ItemBasic("item_canned_beef"),
                     //food values 8, 0.8
-                new ItemFoodBasic(8, 0.8f, "item_food_canned_beef"),
+                new ItemFoodReturnCan(8, 0.8f, "item_food_canned_beef"),
                 
                 //chicken art done
                 new ItemBasic("item_canned_chicken"),
                     //food values 6, 0.6
-                new ItemFoodBasic(6, 0.6f, "item_food_canned_chicken"),
+                new ItemFoodReturnCan(6, 0.6f, "item_food_canned_chicken"),
                 
                 //carrot art done
                 new ItemBasic("item_canned_carrot"),
                     //food values 3, 0.6
-                new ItemFoodBasic(3, 0.6f, "item_food_canned_carrot"),
+                new ItemFoodReturnCan(3, 0.6f, "item_food_canned_carrot"),
                 
                 //potato art done
                 new ItemBasic("item_canned_potato"),
                     //food values 5, 0.6
-                new ItemFoodBasic(5, 0.6f, "item_food_canned_potato"),
+                new ItemFoodReturnCan(5, 0.6f, "item_food_canned_potato"),
                 
                 //rabbot art done
                 new ItemBasic("item_canned_rabbit"),
                     //food values 5, 0.6
-                new ItemFoodBasic(5, 0.6f, "item_food_canned_rabbit"),
+                new ItemFoodReturnCan(5, 0.6f, "item_food_canned_rabbit"),
                 
                 //mutton art done
                 new ItemBasic("item_canned_mutton"),
                     //food values 6, 0.8
-                new ItemFoodBasic(6, 0.8f, "item_food_canned_mutton"),
+                new ItemFoodReturnCan(6, 0.8f, "item_food_canned_mutton"),
                 
                 //beetroot art done
                 new ItemBasic("item_canned_beetroot"),
                     //food values 1, 0.6
-                new ItemFoodBasic(1, 0.6f, "item_food_canned_beetroot"),
+                new ItemFoodReturnCan(1, 0.6f, "item_food_canned_beetroot"),
             };
             
             SurvivalGearFoodMain.LOGGER.info("Begining Item Registration");
