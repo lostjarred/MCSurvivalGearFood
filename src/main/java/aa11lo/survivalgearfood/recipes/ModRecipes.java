@@ -9,6 +9,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModRecipes {
     public static void initSmelting() {
         SurvivalGearFoodMain.LOGGER.info("Adding smelting recipes");
-        GameRegistry.addSmelting(ModItems.ITEM_USED_CAN, new ItemStack(Items.IRON_NUGGET, 4), 0.0F);
+        GameRegistry.addSmelting(ModItems.ITEM_USED_CAN, new ItemStack(Items.IRON_NUGGET, 5), 0.0F);
     }
 }
