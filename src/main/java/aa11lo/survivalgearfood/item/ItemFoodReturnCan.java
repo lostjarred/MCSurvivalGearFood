@@ -9,6 +9,7 @@ public class ItemFoodReturnCan extends ItemFoodBasic {
 
     public ItemFoodReturnCan(int healammount, float saturation, String registryName) {
         super(healammount, saturation, registryName);
+        setMaxStackSize(1);
     }
     
 
