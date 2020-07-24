@@ -10,7 +10,6 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 
-@ObjectHolder(SurvivalGearFoodMain.MODID)
 public class ModItems {
 
     //ITEMS
@@ -55,13 +54,8 @@ public class ModItems {
     //BEETROOT
     public static final Item ITEM_CANNED_BEETROOT = null;
     public static final Item ITEM_FOOD_CANNED_BEETROOT = null;
-
-    @EventBusSubscriber(modid = SurvivalGearFoodMain.MODID)
-    public static class RegistrationHandler{
-        @SubscribeEvent
-        public static void registerItems(Register<Item> event){
-            final Item[] items ={
-                new ItemBasic("item_used_can"),
+    public static final Item[] items ={ 
+    new ItemBasic("item_used_can"),
 
                 //apple art done
                 new ItemBasic("item_canned_apple"),
@@ -127,17 +121,5 @@ public class ModItems {
                 new ItemBasic("item_canned_beetroot"),
                     //food values 1, 0.6
                 new ItemFoodReturnCan(1, 0.6f, "item_food_canned_beetroot"),
-            };
-            
-            SurvivalGearFoodMain.LOGGER.info("Begining Item Registration");
-            
-            for(int i =0; i < items.length; i++){
-                SurvivalGearFoodMain.LOGGER.info("Registering " + items[i].getTranslationKey());
-                event.getRegistry().register(items[i]);
-            }
-
-            SurvivalGearFoodMain.LOGGER.info("Finished Item Registration");
-        }
-    }
-
+    };
 }
