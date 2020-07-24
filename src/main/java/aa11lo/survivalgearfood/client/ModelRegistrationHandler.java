@@ -15,7 +15,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public class ModelRegistrationHandler {
     @SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event) {
-        registerModel(ModItems.ITEM_USED_CAN);
+        /*registerModel(ModItems.ITEM_USED_CAN);
 
 
 
@@ -57,7 +57,19 @@ public class ModelRegistrationHandler {
         registerModel(ModItems.ITEM_FOOD_CANNED_MUTTON);
 
         registerModel(ModItems.ITEM_CANNED_BEETROOT);
-        registerModel(ModItems.ITEM_FOOD_CANNED_BEETROOT);
+        registerModel(ModItems.ITEM_FOOD_CANNED_BEETROOT);*/
+
+        registeritemmodels(ModItems.items);
+    }
+
+    private static void registeritemmodels(Item[] items){
+        aa11lo.survivalgearfood.SurvivalGearFoodMain.LOGGER.info("registering models");
+        for(int i = 0; i < items.length; i ++){
+            aa11lo.survivalgearfood.SurvivalGearFoodMain.LOGGER.info("registering model for " + items[i].getRegistryName());
+            ModelResourceLocation modellocation = new ModelResourceLocation(items[i].getRegistryName(), "inventory");
+            ModelLoader.setCustomModelResourceLocation(items[i], 0, modellocation);
+        }
+
     }
 
     private static void registerModel(Item item) {
