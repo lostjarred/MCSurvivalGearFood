@@ -1,21 +1,10 @@
 package aa11lo.survivalgearfood.item;
 
 import aa11lo.survivalgearfood.init.ModItems;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
-public class ItemFoodReturnCan extends ItemFoodBasic {
+public class ItemFoodReturnCan extends ItemFoodReturnItem {
 
     public ItemFoodReturnCan(int healammount, float saturation, String registryName) {
-        super(healammount, saturation, registryName);
-        setMaxStackSize(1);
-    }
-    
-
-    public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
-    {
-        super.onItemUseFinish(stack, worldIn, entityLiving);
-        return new ItemStack(ModItems.ITEM_USED_CAN);
+        super(healammount, saturation, registryName, ModItems.ITEM_USED_CAN);
     }
 }
