@@ -40,5 +40,9 @@ item.survivalgearfood.item_food_canned_mutton.name= Open Can of Mutton
 item.survivalgearfood.item_canned_beetroot.name= Canned Beetroot  
 item.survivalgearfood.item_food_canned_beetroot.name= Open Can of Beetroot
 
+#Blocks
+tile.survivalgearfood.block_cardboard_box_can.name= Cardboard Box of Cans
+tile.survivalgearfood.block_cardboard_box.name= Cardboard Box
+
 #Creative tab
 itemGroup.survivalgearfood=Survival Gear Food

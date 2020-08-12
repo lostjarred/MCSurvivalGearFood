@@ -4,6 +4,7 @@ import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import aa11lo.survivalgearfood.item.ItemBasic;
 import aa11lo.survivalgearfood.item.ItemFoodBasic;
 import aa11lo.survivalgearfood.item.ItemFoodReturnCan;
+import aa11lo.survivalgearfood.item.ItemFoodReturnItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -14,6 +15,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class ModItems {
 
     public static void register(IForgeRegistry<Item> registry) {
+        SurvivalGearFoodMain.LOGGER.info("Registering Items");
         registry.registerAll(
             ITEM_USED_CAN,
             ITEM_CANNED_APPLE,
@@ -45,10 +47,11 @@ public class ModItems {
             ITEM_CANNED_BEETROOT,
             ITEM_FOOD_CANNED_BEETROOT
         );
-
+        SurvivalGearFoodMain.LOGGER.info("Registering Items finished");
     }
 
     public static void registerModels(){
+        SurvivalGearFoodMain.LOGGER.info("Registering Item Models");
         ITEM_USED_CAN.registerItemModel();
         ITEM_CANNED_APPLE.registerItemModel();
         ITEM_FOOD_CANNED_APPLE.registerItemModel();
@@ -78,6 +81,7 @@ public class ModItems {
         ITEM_FOOD_CANNED_MUTTON.registerItemModel();
         ITEM_CANNED_BEETROOT.registerItemModel();
         ITEM_FOOD_CANNED_BEETROOT.registerItemModel();
+        SurvivalGearFoodMain.LOGGER.info("Registering Item Models finished");
     }
 
     //ITEMS
