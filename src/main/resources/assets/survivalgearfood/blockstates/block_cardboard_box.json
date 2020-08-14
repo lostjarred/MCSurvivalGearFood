@@ -2,7 +2,13 @@
 	"forge_marker": 1,
 	"defaults": {
 		"textures": {
-			"all": "survivalgearfood:blocks/block_carboardbox_side"
+			"particle": "blocks/block_carboardbox_side",
+			"down": "survivalgearfood:blocks/block_carboardbox_top",
+			"up": "survivalgearfood:blocks/block_carboardbox_top",
+			"north": "survivalgearfood:blocks/block_carboardbox_side",
+			"east": "survivalgearfood:blocks/block_carboardbox_side",
+			"south": "survivalgearfood:blocks/block_carboardbox_side",
+			"west": "survivalgearfood:blocks/block_carboardbox_side"
 		}
 	},
 	"variants": {
