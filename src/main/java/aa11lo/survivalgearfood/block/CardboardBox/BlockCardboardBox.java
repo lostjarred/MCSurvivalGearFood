@@ -1,5 +1,6 @@
-package aa11lo.survivalgearfood.block;
+package aa11lo.survivalgearfood.block.CardboardBox;
 
+import aa11lo.survivalgearfood.block.BlockBasic;
 import net.minecraft.block.material.Material;
 
 public class BlockCardboardBox extends BlockBasic {

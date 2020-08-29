@@ -2,9 +2,8 @@ package aa11lo.survivalgearfood.init;
 
 import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import aa11lo.survivalgearfood.block.BlockBasic;
-import aa11lo.survivalgearfood.block.BlockCarboardBoxCans;
-import aa11lo.survivalgearfood.block.BlockCardboardBox;
-import aa11lo.survivalgearfood.block.cardboardbox.BlockTECardboardBox;
+import aa11lo.survivalgearfood.block.CardboardBox.BlockCarboardBoxCans;
+import aa11lo.survivalgearfood.block.CardboardBox.BlockCardboardBox;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;

@@ -1,9 +1,8 @@
-package aa11lo.survivalgearfood.block;
+package aa11lo.survivalgearfood.block.CardboardBox;
 
 import java.util.Random;
 
 import aa11lo.survivalgearfood.block.BlockBasic;
-import aa11lo.survivalgearfood.block.BlockCardboardBox;
 import aa11lo.survivalgearfood.init.ModBlocks;
 import aa11lo.survivalgearfood.init.ModItems;
 import net.minecraft.block.material.Material;
