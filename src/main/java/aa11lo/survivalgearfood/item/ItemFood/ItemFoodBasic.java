@@ -1,4 +1,4 @@
-package aa11lo.survivalgearfood.item;
+package aa11lo.survivalgearfood.item.ItemFood;
 
 import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import net.minecraft.creativetab.CreativeTabs;

@@ -2,9 +2,7 @@ package aa11lo.survivalgearfood.init;
 
 import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import aa11lo.survivalgearfood.item.ItemBasic;
-import aa11lo.survivalgearfood.item.ItemFoodBasic;
-import aa11lo.survivalgearfood.item.ItemFoodReturnCan;
-import aa11lo.survivalgearfood.item.ItemFoodReturnItem;
+import aa11lo.survivalgearfood.item.ItemFood.*;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -86,9 +84,14 @@ public class ModItems {
 
     //ITEMS
     public static final ItemBasic ITEM_USED_CAN = new ItemBasic("item_used_can");
+    public static final ItemBasic ITEM_CANTEEN_CUP = new ItemBasic("item_canteen_cup");
+    public static final ItemBasic ITEM_DRIED_COFFEE = new ItemBasic("item_dried_coffee");
     
-    //FOOD ITEMS
-    
+    //DRINKS
+    public static final ItemFoodReturnItem ITEM_FOOD_BLACKCOFFEE_CANTEENCUP = new ItemFoodReturnItem(4, 0.2f, "item_food_blackcoffee_canteencup", ITEM_CANTEEN_CUP);
+    //FOOD ITEMs
+
+    //Minecraft
     //APPLE food values 4, 0.3
     public static final ItemBasic ITEM_CANNED_APPLE = new ItemBasic("item_canned_apple");
     public static final ItemFoodReturnCan ITEM_FOOD_CANNED_APPLE = new ItemFoodReturnCan(4, 0.5f, "item_food_canned_apple");

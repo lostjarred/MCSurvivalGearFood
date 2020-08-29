@@ -1,4 +1,4 @@
-package aa11lo.survivalgearfood.item;
+package aa11lo.survivalgearfood.item.ItemFood;
 
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
