@@ -2,7 +2,8 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
       {
-        "item": "survivalgearfood:item_canned_potato"
+        "item": "survivalgearfood:item_minecraftfoodcans",
+        "data":9
       }
     ],
     "result": {
