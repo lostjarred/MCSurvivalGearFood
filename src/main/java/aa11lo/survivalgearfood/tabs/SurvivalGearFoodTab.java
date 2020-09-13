@@ -16,6 +16,6 @@ public class SurvivalGearFoodTab extends CreativeTabs {
     @SideOnly(Side.CLIENT)
     @Override
     public ItemStack createIcon(){
-        return new ItemStack(ModItems.ITEM_CANNED_APPLE);
+        return new ItemStack(ModItems.ITEM_MINECRAFTFOODCANS);
     }
 }

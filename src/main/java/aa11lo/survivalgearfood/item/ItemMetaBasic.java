@@ -1,17 +1,15 @@
 package aa11lo.survivalgearfood.item;
 
-
 import aa11lo.survivalgearfood.SurvivalGearFoodMain;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ItemBasic extends Item{
-
+public class ItemMetaBasic extends Item {
+    
     protected String name;
 
-    public ItemBasic(String name){
-        this.name = name;
-        setTranslationKey(SurvivalGearFoodMain.MODID + "." + name);
+    public ItemMetaBasic(String Name){
+        this.name = Name;
         setRegistryName(name);
         setCreativeTab(SurvivalGearFoodMain.SurvivalGearFoodCreativeTab);
     }
@@ -20,13 +18,10 @@ public class ItemBasic extends Item{
         SurvivalGearFoodMain.proxy.registerItemRenderer(this, 0, name);
     }
 
-    public String getName(){
-        return name;
-    }
-
     @Override
-    public ItemBasic setCreativeTab(CreativeTabs tab) {
+    public ItemMetaBasic setCreativeTab(CreativeTabs tab) {
         super.setCreativeTab(tab);
         return this;
     }
+
 }
